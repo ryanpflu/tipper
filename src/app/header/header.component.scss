@@ -1,0 +1,19 @@
+#app-header{
+        box-shadow:0 3px 5px -1px rgba(0,0,0,.2);
+
+        span{
+                font-weight: 300;
+        };
+
+        .app-icon{
+                height: 35px;
+                width: 35px;
+                display: inline-block;
+                margin-right: 10px;
+
+                img{
+                        height:35px;
+                        width: 35px;
+                }
+        }
+}
