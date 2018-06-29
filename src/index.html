@@ -2,13 +2,28 @@
 <html lang="en">
         <head>
                 <meta charset="utf-8">
-                <title>Tipper</title>
+                <title>Lil' Tipper</title>
                 <base href="/">
 
+                <meta name="robots" content="noindex" />
                 <meta name="theme-color" content="#3f51b5">
-                <link rel="manifest" href="manifest.json">
+                <link rel="manifest" href="/tipper/manifest.json">
                 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+                <!-- ICONS-->
                 <link rel="icon" type="image/x-icon" href="favicon.ico">
+                <link href="/tipper/assets/ios-128x128.png" rel="apple-touch-icon" />
+                <link href="/tipper/assets/ios-152x152.png" rel="apple-touch-icon" sizes="152x152" />
+                <link href="/tipper/assets/ios-180x180.png" rel="apple-touch-icon" sizes="167x167" />
+                <link href="/tipper/assets/ios-180x180.png" rel="apple-touch-icon" sizes="180x180" />
+                <link href="/tipper/assets/icon-180x180.png" rel="icon" sizes="180x180" />
+                <link href="/tipper/assets/icon-128x128.png" rel="icon" sizes="128x128" />
+
+                <meta name="apple-mobile-web-app-capable" content="yes">
+                <meta name="mobile-web-app-capable" content="yes">
+
+
+
                 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
                 <style type="text/css">
@@ -78,7 +93,7 @@
                 <app-root>
                         <div class="app-loading">
                                 <div class="logo">
-                                        <img src="/assets/icon-loading-screen.svg"/>
+                                        <img src="/tipper/assets/icon-loading-screen.svg"/>
                                 </div>
                                 <svg class="spinner" viewBox="25 25 50 50">
                                         <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"/>
