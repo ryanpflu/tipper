@@ -1,0 +1,69 @@
+{
+  "configVersion": 1,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/favicon.ico",
+        "/index.html"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/app-nav-icon.svg",
+        "/assets/icon-128x128.png",
+        "/assets/icon-152x152.png",
+        "/assets/icon-180x180.png",
+        "/assets/icon-256x256.png",
+        "/assets/icon-512x512.png",
+        "/assets/icon-loading-screen.svg",
+        "/assets/ios-icon-120x120.png",
+        "/assets/ios-icon-152x152.png",
+        "/assets/ios-icon-167x167.png",
+        "/assets/ios-icon-180x180.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/app-nav-icon.svg": "c6941baa1962e06d541179cb4b9b028a25e12fb7",
+    "/assets/icon-128x128.png": "a9f1ccde810fd2bf576f256ca03746b944766734",
+    "/assets/icon-152x152.png": "29c3ca6f5a05191f4fdccc835e9c785ddd66b654",
+    "/assets/icon-180x180.png": "43f4525c1c2965979fd319eab9086fda19c28dd4",
+    "/assets/icon-256x256.png": "d0eafab840459bef391203d1477bdb7d2d54644a",
+    "/assets/icon-512x512.png": "cd783faff4570c90773baf74695d0e1304808ab8",
+    "/assets/icon-loading-screen.svg": "c1d0075ad196b554f5308c21c9669ad05573f2ab",
+    "/assets/ios-icon-120x120.png": "da44be862c710de05e476582cfde84b7f48b8f51",
+    "/assets/ios-icon-152x152.png": "971cf8bd1bd52ec65c07d394e2cb19e622d085b5",
+    "/assets/ios-icon-167x167.png": "9b8984f76bc4f189263737cb03fd8c7f78b855ff",
+    "/assets/ios-icon-180x180.png": "b68aad7d065b5789a2bffe46f647a0dbadc86fd3",
+    "/favicon.ico": "f76c87a376cb7f0233a6e5c06cb8589c5d893cd5",
+    "/index.html": "52ad805a99cd9ea46d9b0eae37deb1dff412d50b"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^\\/]*\\.[^\\/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^\\/]*__[^\\/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^\\/]*__[^\\/]*\\/.*$"
+    }
+  ]
+}
